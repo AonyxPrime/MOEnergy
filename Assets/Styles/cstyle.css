@@ -1,0 +1,115 @@
+﻿/* 
+   
+   MO Energy Contact Us Style Sheet
+   Filename: cstyle.css
+
+   Author:   Sam L.
+   Date:     5/8/21
+   
+   Supporting Files: go.png. stop.png
+  
+ */
+
+/* field set styles */
+fieldset{
+	background-color: rgb(231, 231, 255);
+	border: 1px solid rgb(67, 76, 169);
+	float: left;
+	margin: 10px 0px 10px 0px;
+	width: 100%;
+}
+
+legend{
+	background-color: rgb(67, 76, 169);
+	color: white;
+	padding: 5px;
+}
+
+p.submit , p.reset{
+	background-color: rgb(231, 231, 255);
+	border: 1px solid rgb(67, 76, 169);
+	float: left;
+	margin: 10px 0px 10px 0px;
+width: 100%;
+}
+	
+
+/*Label Styles */
+label{
+	clear: left;
+	text-align: right;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 4% 7px 5px;
+	width: 17%;
+}
+
+/* Input control styles */
+input{
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+	width: 30%;
+}
+textarea{
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+	width: 50%;
+	height: 250px;
+}
+/* Selection list styles */
+select{
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+}
+
+
+/* Button Styles */
+input[type="submit"]{
+	clear: left;
+}
+
+input[type="submit"], input[type="reset"]{
+	height: 40px;
+	margin-right: 20px;
+	width: 200px;
+}
+
+select#prefer{
+	float: left;
+}
+
+/* Validation Styles */
+input:focus, select:focus{
+	background-color: ivory;
+}
+
+input:focus:valid{
+	background:  rgb(220, 255, 220) url("../Images/go.png") bottom right no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+
+}
+
+input:focus:invalid{
+	background: rgb(255, 232, 233) url("../Images/stop.png") bottom right no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+input[type="submit"]:focus{
+	background-color: ivory;
+	background-image: none;
+}
+

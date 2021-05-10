@@ -1,0 +1,16 @@
+﻿/* 
+   MO Energy help Style Sheet
+   Filename: hstyle.css
+
+   Author:   Sam L.
+   Date:     5/8/21
+  
+ */
+
+strong.question{
+	color: blue;
+}
+
+strong.answer{
+	color: violet;
+}

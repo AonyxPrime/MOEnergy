@@ -1,0 +1,22 @@
+﻿/* 
+   MO Energy Audio Style Sheet 
+   Filename: astyle.css
+
+   Author:   Sam L.
+   Date:     5/8/21
+  
+ */
+
+/* Audio Styles */
+audio, onject, embed{
+	display: block;
+	margin: 15px auto;
+	margin-top: 20px;
+}
+
+div.ceoaudio{
+	float: left;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}

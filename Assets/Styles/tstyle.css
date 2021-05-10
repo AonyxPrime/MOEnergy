@@ -1,0 +1,36 @@
+﻿/* 
+   MO Energy table style sheet
+   Filename: tstyle.css
+
+   Author:   Sam L.
+   Date:    5/8/21
+  
+ */
+table{
+	font-size: 14px;
+	border-collapse: collapse;
+	border: 10px outset rgb(112, 118, 207);
+	margin: 10px auto;
+	width: 400px;
+}
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+thead{
+	background-color: ivory;
+}
+th, td{
+	border: 1px solid black;
+	vertical-align: top;
+	
+}
+tr td:nth-of-type(2), tr td:nth-of-type(3){
+	text-align: right;
+}
+.feeColumns{
+	background-color: rgb(232, 232, 255);
+	
+}
+

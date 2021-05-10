@@ -1,0 +1,209 @@
+﻿/* 
+   MO Energy Base Style Sheet
+   Filename: Main.css
+
+   Author:   Sam L.
+   Date:     5/8/21
+  
+ */
+
+/* Display HTML5 structural elements as blocks */
+article, aside, figure, figcaption, footer, hgroup, header, section, nav {
+	display: block;
+}
+
+/* Set default page element styles */
+body{
+	margin: 0px auto;
+	width: 800px;
+}
+
+body *{
+	font-family: Veranda, Geneva, sans-seriff;
+	font-size: 100%;
+	font-weight: inherit;
+	line-height: 1.2em;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	vertical-align: baseline;
+}
+h1.homepage{
+	font-size: 2em;
+	text-align: center;
+	font-weight: 900;
+
+}
+div.intro{
+	background-color: rgb(206, 242, 216);
+	position: relative;
+	text-align: justify;
+	width: 100%;
+	padding-bottom: 5px;
+	padding-right: 5px;
+}
+
+/* Nav links */
+nav ul{
+	list-style: none;
+	margin-top: 5px;
+}
+
+nav li{
+	float: left;
+	width: 19%;
+	text-align: center;
+	border: 1px solid rgb(68, 76, 169);
+	margin: 5px 2px 15px 2px;
+}
+
+nav li a{
+	display: block;
+	color: rgb(68, 76, 169);
+	text-decoration: none;
+	background-color: white;
+}
+
+nav li a:hover{
+	background-image: url("../images/iconelectric.gif");
+	background-position: 0px -10px;
+	font-weight: 900;
+	color: white;
+	background-color: rgb(112, 118, 207);
+}
+
+li.visit a{
+	background-image: url("../images/iconelectric.gif");
+	background-position: 0px -10px;
+	font-weight: 900;
+	color: white;
+	background-color: rgb(112, 118, 207);
+}
+
+
+/*h1, h2, p */
+h1{
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	color: rgb(68, 76, 169);
+	margin-top: 15px;
+}
+
+h2{
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 5px;
+	color: rgb(68, 76, 169);
+	margin-top: 15px;
+}
+h2.home{
+	color: black;
+	font-size: 18px;
+}
+
+div.green{
+	background-color: rgb(206, 242, 216);
+	position: relative;
+	text-align: justify;
+	width: 45%;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	display: block;
+	
+}
+img.powerlines{
+	float: right;
+	position: relative;
+	width: 52%;
+	padding-top: 15px;
+	height: 321px;
+}
+p{
+	margin: 7px;
+}
+
+
+#main{
+	border-top: 2px solid rgb(68, 76, 169);
+}
+
+#main ul{
+	list-style-type: circle;
+	margin-left: 50px;
+	font-size: 12px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#main ul li{
+	margin-bottom: 10px;
+}
+
+#main ul li strong{
+	font-weight: normal;
+	color: rgb(68, 76, 169);
+}
+
+footer{
+	margin-top: 9px;
+	border-top: 2px solid rgb(68, 76, 169);
+	clear: both;
+	float: left;
+	width: 100%;
+}
+nav.bottom{
+	margin-top: 8px;
+	width: 100%;
+	float: right;
+
+}
+nav.bottom li{
+	float: left;
+	width: 19%;
+	text-align: center;
+	border: 1px solid rgb(68, 76, 169);
+	margin-left: 40.5%;
+	margin-right: 40%;
+
+}
+nav.bottom li a{
+	display: block;
+	color: rgb(68, 76, 169);
+	text-decoration: none;
+	z-index: 1;
+	background-color: white;
+}
+nav.bottom li a:hover{
+	background-image: url("../images/iconelectric.gif");
+	background-position: 0px -10px;
+	font-weight: 900;
+	color: white;
+	background-color: rgb(112, 118, 207);
+}
+
+nav.bottom li.visit a{
+	background-image: url("../images/iconelectric.gif");
+	background-position: 0px -10px;
+	font-weight: 900;
+	color: white;
+	background-color: rgb(112, 118, 207);
+}
+
+address{
+	font-style: normal;
+	font-size: 10px;
+	text-align: center;
+	padding: 5px;
+	position: relative;
+	width: 100%;
+	height: auto;
+	z-index: -10;
+}
+
+/*image styles */
+img.irregularWrap{
+	clear: right;
+	float: right;
+	margin: 0px;
+}
