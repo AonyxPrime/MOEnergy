@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Careers @ MO Energy</title>
+      <!--
+         MO Energy - Careers website
+         Filename: careers.htm
+      
+         Author:   Sam L.
+         Date:     5/8/21
+
+		 Supporting files: main.css, fstyle.css, moenergy.png , careerscript.js
+      -->
+      <meta charset="utf-8">
+	  
+	  <link href="Assets/Styles/main.css" rel="stylesheet" type="text/css" />
+	  <link href="Assets/Styles/fstyle.css" rel="stylesheet" type="text/css" />
+	 
+	 </head>
+	 <body>
+		<header>
+			<img src="Assets/Images/moenergy.png" alt="MO Energy Logo" />
+		</header>
+		
+			<nav class="horizontal">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutus.htm">About Us</a></li>
+					<li><a href="pricing.htm">Pricing</a></li>
+					<li class="visit"><a href="careers.htm">Careers</a></li>
+					<li><a href="help.htm">Help & FAQ</a></li>
+				</ul>
+			</nav>
+			
+			<section id="main">
+				<h1 class="careers">Careers at MO Energy</h1>
+				<article>
+				<p class="workintro" >Are you ready to start your career with MO Energy? We hope so! If you are interested in hearing more about available jobs or already know which job you want to apply for, please fill out the form below. We will respond within 1-2 business days. Thank you so much for your interest in working for one of Missouri's best companies!
+				</p>
+				</article>
+				<img src="Assets/Images/worker2.jpg" />
+				<form name="interestForm" id="intestForm"
+						method="post">
+					<fieldset id="contactFields">
+						<legend>Contact Information</legend>
+						
+						<label for="fName">First Name</label>
+						<input type="text" id="fName" name="fName" required="required" />
+						
+						<label for="lName">Last Name</label>
+						<input type="text" id="lName" name="lName" required="required" />
+						
+						<label for="address">Address</label>
+						<input type="text" id="address" name="address" required="required" />
+						
+						<label for="city">City</label>
+						<input type="text" id="city" name="city" required="required" />
+						
+						<label for="state">State</label>
+						<input type="text" id="state" name="state" required="required" value="Missouri" />
+						
+						<label for="zip">Postal Code</label>
+						<input type="text" id="zip" name="zip" placeholder="xxxx (-xxxx)"
+								required="required" pattern="^\d{5}(\-\d{4})?$"/>
+								
+						<label for="phone">Phone</label>
+						<input type="tel" id="phone" name="phone" placeholder="(xxx) xxx-xxxx"
+								required="required" 
+								pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+								
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" required="required" />
+					</fieldset>
+					
+					<fieldset id="otherFields">
+						<legend>Other Information</legend>
+						
+						<label for="pcontact">Preferred Pronouns</label>
+						<input type="text" id="pronouns" name="pronouns"
+								placeholder="He/She/They/Other" />
+								
+						<label for="ctype" class="blockEntry">How did you hear about us?</label>
+						<select id="ctype" name="ctype">
+							<option disabled selected value>Select An Option</option>
+							<option	value="Internet">Internet</option>
+							<option value="Advertising">Advertising</option>
+							<option value="Radio">Radio</option>
+							<option value="JobsWebsite">Jobs Website</option>
+							<option value="Other">Other</option>
+						</select>
+						
+						<label for="interest">Which positions are you interested in? (select all that apply)</label>
+						<select id="interest" name="interest" size="8" multiple="multiple">
+							<option value="Human Resources">Human Resources</option>
+							<option value="Electrician">Electrician</option>
+							<option value="Salesperson">Salesperson</option>
+							<option value="Customersupport">Customer Support</option>
+							<option value="MaintenenceTechnicion">Maintenence Technician</option>
+							<option value="Engineer">Engineer</option>
+							<option value="Marketing">Marketing</option>
+							<option value="Accounting">Accounting</option>
+						</select>
+					</fieldset>
+					
+					<input type="checkbox" id="call" name="call" />
+					<label for="call">Please sign me up for company newsletters</label>
+					
+					<input type="submit" class="submitcareer" value="Sumbit Information" />
+					<input type="reset" class="reset" value="Cancel" />
+				</form>
+			</section>
+				<footer>
+				<nav class="bottom">
+						<ul>
+							<li><a href="contactus.htm">Contact Us</a></li>
+						</ul>
+					</nav>
+					<address>
+						MO Energy &#183;
+						5600 Oakland Ave &#183;
+						St. Louis, MO 63110 &#183;
+						(636) 555 - 2155 &#183;
+						getMO@moenergy.com
+					</address>
+				</footer>
+				<script src="Assets/JavaScripts/careersript.js"></script>
+		</body>
+</html>		
+		
+					
+  
